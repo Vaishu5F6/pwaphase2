@@ -1,0 +1,41 @@
+body{
+  background:	#A52A2A;
+}
+.parent{
+  border-radius:5px;
+  display:flex;
+  background: #F08080;
+  margin:1%;
+}
+
+.left{
+  background: 	#FFA07A;
+  border:2px solid red;
+  padding: 2%;
+  margin: 2%;
+  width: 30%;
+  height:90%;
+  text-align: center;
+}
+img{
+  width:60%;
+  height: 60%;
+}
+.right{
+  background: #008B8B;
+border:2px solid red;
+padding:2%;
+margin:2%;
+width:65%;
+}
+table{
+  width:100%;
+  border:1px solid green;
+}
+table th,td{
+  border:1px solid blue;
+  border-collapse: collapse;
+}
+table tr:nth-child(even){
+  background: white;
+}

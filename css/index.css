@@ -1,0 +1,37 @@
+body{
+  background: yellow;
+}
+header{
+font-weight: bolder;
+text-align: center;
+  background: blue;
+}
+
+img{
+  float: right;
+  width: 40%;
+  height: 40%;
+}
+a{
+  float: right;
+}
+.child{
+width:20%;
+padding:1%;
+margin: 1%;
+border: 5px solid #fff;
+display: block;
+background-color: orange;
+justify-content: space-around;
+/* border-radius: 200%; */
+}
+.child img{
+  width:200px;
+  height:200px;
+}
+.link{
+  text-decoration: none;
+  background-color: red;
+  color: #green;
+
+}
